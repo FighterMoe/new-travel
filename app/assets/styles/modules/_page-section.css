@@ -1,0 +1,11 @@
+.page-section {
+    padding: 2rem 0;
+
+    @mxin atMedium {
+        padding: 4.5rem 0;
+    }
+    &--blue{
+        background-color:$blue;
+        color:#fff;
+    }
+}
