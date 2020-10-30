@@ -11,6 +11,9 @@
         font-weight: 500;
     }
 
+    &--blue {
+        color: $blue;
+    }
     &__icon {
         display: block;
         margin-right: auto;
