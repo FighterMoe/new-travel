@@ -17,7 +17,7 @@ module.exports = {
         before: (app, server) => server._watch('./app/**/*.html'),
         contentBase: path.join(__dirname, 'app'),
         hot: true,
-        port: 3000,
+        port: 8000,
         host: '192.168.8.106'
     },
     module: {
