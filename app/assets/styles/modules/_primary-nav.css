@@ -1,8 +1,8 @@
 .primary-nav {
     padding-top: 10px;
 
-    @mixin atMedium {
-        margin-top: 0;
+    @mixin atSmall {
+        padding-top: 0;
     }
 
     &--pull-right {
@@ -53,6 +53,5 @@
             padding: 12px 0;
             background-color: transparent;
         }
-
     }
 }
