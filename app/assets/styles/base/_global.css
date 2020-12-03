@@ -5,6 +5,10 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     color:#333;
+
+    &.no-scroll {
+        overflow: hidden;
+    }
 }
 
 img{
