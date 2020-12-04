@@ -4,7 +4,7 @@ import MobileMenu from './modules/MobileMenu';
 import RevealOnScroll from './modules/RevealOnScroll';
 import StickyHeader from './modules/StickyHeader';
 
-
+console.log("testing");
 new MobileMenu;
 new StickyHeader; 
 
