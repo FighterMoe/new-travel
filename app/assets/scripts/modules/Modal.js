@@ -3,7 +3,7 @@ export default class Modal {
         this.modalHTML();
 
         this.modal = document.querySelector('.modal');
-        this.openButton = document.querySelectorAll('.open-modal');
+        // this.openButton = document.querySelectorAll('.open-modal');
         this.closeButton = document.querySelector('.modal__close');
         this.isOpen = false;
 
@@ -11,9 +11,9 @@ export default class Modal {
     }
 
     events () {
-        this.openButton.forEach( btn => {
-            btn.addEventListener('click', e => this.openModalMethod(e));
-        });
+        // this.openButton.forEach( btn => {
+        //     btn.addEventListener('click', e => this.openModalMethod(e));
+        // });
 
         this.closeButton.addEventListener('click', () => this.closeModalMethod());
 
@@ -27,7 +27,7 @@ export default class Modal {
     }
 
     openModalMethod(e) {
-        e.preventDefault();
+        // e.preventDefault();
         this.modal.classList.add('modal--is-visible');
         document.body.classList.add('no-scroll');
         this.isOpen = true;
